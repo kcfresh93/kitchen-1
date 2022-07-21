@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+body{
+    background-color: white;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    width: 100vw;
+    color: black;
+}
+.img{
+    width: 50px;
+}
+.bar{
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
+}
+
+ .bar li a{
+    margin: 10px;
+    text-align: right;
+}
+li a{ 
+    text-decoration: none;
+    color: black;
+   font-weight: 700;
+    padding: 10px;
+}
+ .bar li a:hover{ 
+    transition: height 0.5s ease;
+    border: 1px solid #a2d612;
+    background-color: #78a00a;
+    border-radius: 50%;
+    transform: rotate(10deg);
+    
+    }
+    .pix{
+        margin-right: 20px;
+        padding-right: 40px;
+    }
+    .logo{
+        padding-left: 30px;
+        animation-delay: 2s;
+        animation: textdown 12s linear infinite;
+        transform: translateX(100px);
+    }
+    @keyframes textup{
+        10%{
+            transform: translateY(10px);
+        }
+        100%{
+            transform: translateY(10px);
+        }
+    }
+.food{
+    display: flex;
+    margin-top: 1em;
+    background-image: url(/food/table\ food.jpg);
+    background-size: contain;
+    background-position: 20%;
+  
+}
+.happy{
+    margin-top: 2em;
+    padding-left: 80px;
+}
+.menus{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.special{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    justify-content: center;
+    padding-left: 2em;
+    margin-bottom: 5em;
+}
+.special p{
+    font-size: large;
+    font-weight: 700;
+    padding: 10px;
+    font-family:  'Poppins', sans-serif;
+}
+.image1{
+    display: grid;
+}
+.fis{
+    border-radius: 50%;
+    margin: 10px;
+    padding-top: 20%;
+    
+}
+.bg{
+    background-image: url(/food/eating.jpg);
+    background-size: 60%;
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.eat{
+    width: 250px;
+    border-radius: 2em;
+}
+.eats{
+    width: 450px;
+    margin: 30px;
+    border-radius: 5%;
+}
+.eates{
+    width: 425px;
+    margin-top: 30px;
+    padding-right: 80px;
+    border-radius: 5%;
+   
+}
+.news{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 16px 14px;
+    padding-left: 4em;
+}
+ .news p{
+    margin: 10px;
+    font-size: large;
+    font-weight: 700;
+ }
+
+    
+
+.drink{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 14px 16px;
+    padding-left: 4em;
+}
+.drink p{
+    margin: 30px;
+    font-size: large;
+    font-weight: 700;
+}
+.meat{
+  flex-basis: 50%;
+}
+.audio{
+    border-radius: 50%;
+    width: 46px;
+    
+}
+.audio:hover{
+    background: #a2d612;
+    cursor: pointer;
+}
+.meats{
+    width: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    padding-top: 20%;
+    animation: textup 12s linear infinite;
+    transform: translateX(100px);
+    animation-delay: 3s;
+}
+@keyframes textup{
+    10%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+.meates{
+    width: 200px;
+    margin-top: 6%;
+    border-radius: 50%;
+    padding-bottom: 20%;
+    animation: textdown 12s linear infinite;
+    transform: translateX(100px);
+}
+@keyframes textdown{
+    10%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+.fish{
+    width: 200px;
+    border-radius: 50%;
+}
+.fishes{
+    width: 200px;
+    border-radius: 15px;
+    
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 3em;
+    text-align: c;
+}
+.order{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #d9f688;
+    color: black;
+    border-radius: 15px;
+    padding: 14px;
+    margin-right: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+.order:hover{
+    transition: height 0.5s ease;
+    border: 1px solid #a2d612;
+    background-color: #78a00a;
+    transform: translateX(30px);
+    transition: 2s;
+}
+.foot{
+    width: 20px;
+    
+}
+.foot:hover{
+    transform: translateY(30px);
+    transition: 2s;
+    border-bottom-left-radius: 60px;
+}
+.footer{
+    margin-top: 10em;
+    text-align: left;
+}
+
+.head{
+    font-weight: 800;
+    font-size: larger;
+    font-weight: bold;
+}
+nav{
+   
+    margin: 0;
+    display: flex;
+    width: 100vw;
+}
+
+ul{
+    list-style: none;
+    display: block;
+}
+.line{
+    display: flex;
+    margin-top: 2em;
+}
+.copy{
+    left: -20px;
+    
+}
+ .space{
+    margin: 15px;
+    
+}
+footer{
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    background-image: url(/food/tomoto\ back.jpg);
+    height: 20%;
+    background-size: contain;
+    color: white;
+    background-position: 50%;
+}
+@media (max-width:750px){
+    .food{
+        flex-direction: column;
+        width: 95%;
+    }
+    .top{
+        width: 95%;
+        flex-direction: column;
+    }
+    .bar{
+        justify-content: center;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .pix{
+        justify-content: center;
+    }
+    .special{
+        width: 105%;
+    }
+    .fis{
+        width: 105%;
+    }
+    .bg{
+        width: 105%;
+    }
+    .news{
+        flex-direction: column;
+    }
+    .eats{
+        width: 95%;
+        
+    }
+.eates{
+    width: 95%;
+}
+.eat{
+    width: 95%;
+    flex-direction: column;
+}
+    
+}
+
+
+
